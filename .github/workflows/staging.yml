@@ -1,4 +1,4 @@
-# This is a basic workflow to help you get started with Actions
+# This is a workflow for pushing into the staging environment
 
 name: CI staging
 
@@ -6,8 +6,6 @@ name: CI staging
 on:
   # Triggers the workflow on push or pull request events but only for the develop branch
   push:
-    branches: [ develop ]
-  pull_request:
     branches: [ develop ]
 
   # Allows you to run this workflow manually from the Actions tab
